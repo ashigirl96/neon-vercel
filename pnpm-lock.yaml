@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@ashigirl96/neon-build':
+    specifier: 0.1.0
+    version: 0.1.0
   next:
     specifier: 14.0.3
     version: 14.0.3(react-dom@18.2.0)(react@18.2.0)
@@ -55,6 +58,10 @@ packages:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
     dev: true
+
+  /@ashigirl96/neon-build@0.1.0:
+    resolution: {integrity: sha512-XqM5z6BLCcr4WJZWcHlQhHXoQRHLN/8ISYeRXAmSr4jYqrcsj+Xx7VkUBLMGY41QoB5iZR69+ErADepScLMEpQ==, tarball: https://npm.pkg.github.com/download/@ashigirl96/neon-build/0.1.0/f4cc1b6e69c803fa35cd7ac6f9d71009e756c8c8}
+    dev: false
 
   /@babel/runtime@7.23.2:
     resolution: {integrity: sha512-mM8eg4yl5D6i3lu2QKPuPH4FArvJ8KhTofbE7jwMUv9KX5mBvwPAqnV3MlyBNqdp9RyRKP6Yck8TrfYrPvX3bg==}
