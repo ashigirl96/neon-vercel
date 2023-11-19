@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@ashigirl96/neon-build':
-    specifier: 0.1.2
-    version: 0.1.2
+    specifier: 0.1.3
+    version: 0.1.3
   '@types/node':
     specifier: ^20
     version: 20.9.1
@@ -68,9 +68,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@ashigirl96/neon-build@0.1.2:
-    resolution: {integrity: sha512-xo6TO1mpnRMV81542o5d8fidMr4qOzcsIEgGN+OOUv6bhH7HLh+HgeIJQdwMu7H0XzgDfs6s+z8/iMwZ1HauiA==, tarball: https://npm.pkg.github.com/download/@ashigirl96/neon-build/0.1.2/64c43c22c5ad2bb6051c62c7e8f3a5673481a299}
-    requiresBuild: true
+  /@ashigirl96/neon-build@0.1.3:
+    resolution: {integrity: sha512-xhk7fkozAl26Zo9DAG1CVL6ldlb15BciUUDzRKEhxwKbByIjxcSWCAkgKAO6MHLL2qPXR8BlTnhl42UaV5Mpng==, tarball: https://npm.pkg.github.com/download/@ashigirl96/neon-build/0.1.3/c0eef9681a931015a250c889472a52aea2d89374}
     dev: true
 
   /@babel/runtime@7.23.2:
