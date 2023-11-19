@@ -1,7 +1,6 @@
 import {arch, platform} from "os";
-// @ts-ignore
-import {hello} from "@ashigirl96/neon-build";
+import { hello } from '@ashigirl96/neon-build'
 
 export function getOsArch() {
-  return `${platform()}-${arch()}-${hello()}`
+  return `${platform()}-${arch()}-${JSON.stringify(hello())}-3`
 }
